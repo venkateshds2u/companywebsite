@@ -266,8 +266,8 @@
                 <h2>About Company Page</h2><br>
                 <h4>
                     <Enjoy life. There is plenty of time to be dead./h4><br>
-                <p>We are highly acclaimed trekking company in the world, We provide best trekking experience you will ever have</p>
-                <!--<br><button class="btn btn-default btn-lg">Get in Touch</button>-->
+                        <p>We are highly acclaimed trekking company in the world, We provide best trekking experience you will ever have</p>
+                        <!--<br><button class="btn btn-default btn-lg">Get in Touch</button>-->
             </div>
             <div class="col-sm-4">
                 <span class="glyphicon glyphicon-signal logo"></span>
@@ -282,26 +282,13 @@
             </div>
             <div class="col-sm-8">
                 <h2>Our Values</h2><br>
-                <h4><strong>MISSION:</strong> We are a team that creates unique and socially responsible travel experiences, providing services beyond expectations.
-                    .</h4><br>
-                <p><strong>VISION:</strong>  To strengthen our position as the leading tourism company providing quality, creative, innovative, competitive and socially responsible services in the region.</p>
-                <p><strong>OUR VALUES</strong>   
-Excellence : 
-
-We distinguish ourselves through our strong commitment to improve and to inspire.
-Responsibility:
-
-We commit to fulfil the needs of the persons, the interested parties and the environment through our work, maximizing the company’s resources.
-Loyalty: 
-
-We are reliable and trustworthy in all our relationships.
-Respect:
-
-We encourage harmony and warmth between persons, considering human diversity.
-Readiness:
-
-We are prompt, proactive, careful and impassionate in complying with our tasks.
-</p>
+                <h4><strong>MISSION:</strong> We are a team that creates unique and socially responsible travel experiences, providing services beyond expectations. .
+                </h4><br>
+                <p><strong>VISION:</strong> To strengthen our position as the leading tourism company providing quality, creative, innovative, competitive and socially responsible services in the region.</p>
+                <p><strong>OUR VALUES</strong> Excellence : We distinguish ourselves through our strong commitment to improve and to inspire. Responsibility: We commit to fulfil the needs of the persons, the interested parties and the environment through
+                    our work, maximizing the company’s resources. Loyalty: We are reliable and trustworthy in all our relationships. Respect: We encourage harmony and warmth between persons, considering human diversity. Readiness: We are prompt, proactive,
+                    careful and impassionate in complying with our tasks.
+                </p>
             </div>
         </div>
     </div>
@@ -357,7 +344,7 @@ We are prompt, proactive, careful and impassionate in complying with our tasks.
                 <div class="thumbnail">
                     <img src="paris.jpg" alt="Paris" width="400" height="300">
                     <p><strong>The New Yorker</strong></p>
-                    <p><Trek the himalayas, The most admired company in the world/p>
+                    <p>Trek the himalayas, The most admired company in the world</p>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -483,7 +470,8 @@ We are prompt, proactive, careful and impassionate in complying with our tasks.
         <div class="row">
             <div class="col-sm-5">
                 <p>Contact us and we'll get back to you within 24 hours.</p>
-                <p><?php
+                <p>
+                    <?php
 
 $fh = fopen('contact.txt','r');
 while ($line = fgets($fh)) {
@@ -491,8 +479,9 @@ while ($line = fgets($fh)) {
    echo($line);
 }
 fclose($fh);
-?><p>
-                        <!--<p><span class="glyphicon glyphicon-map-marker"></span> Himalayas, India</p>
+?>
+                        <p>
+                            <!--<p><span class="glyphicon glyphicon-map-marker"></span> Himalayas, India</p>
                         <p><span class="glyphicon glyphicon-phone"></span> +43897492347</p>
                         <p><span class="glyphicon glyphicon-envelope"></span> myemail@himalayas.com</p>-->
             </div>
@@ -518,7 +507,8 @@ fclose($fh);
     <div id="googleMap" style="height:400px;width:100%;"></div>
 
     <!-- Add Google Maps -->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <!--<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCe30oLPh7uH3vWngw96bjZ0HLPq51Byf8'></script>-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkXqoIUFG1XUbMsV2KfsW2_wxt7m0SivY"></script>
     <script>
         var myCenter = new google.maps.LatLng(12.972442, 77.580643);
 
