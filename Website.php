@@ -265,7 +265,7 @@
             <div class="col-sm-8">
                 <h2>About Company Page</h2><br>
                 <h4>
-                    <Enjoy life. There 's plenty of time to be dead./h4><br>
+                    <Enjoy life. There is plenty of time to be dead./h4><br>
                 <p>We are highly acclaimed trekking company in the world, We provide best trekking experience you will ever have</p>
                 <!--<br><button class="btn btn-default btn-lg">Get in Touch</button>-->
             </div>
@@ -483,9 +483,18 @@ We are prompt, proactive, careful and impassionate in complying with our tasks.
         <div class="row">
             <div class="col-sm-5">
                 <p>Contact us and we'll get back to you within 24 hours.</p>
-                        <p><span class="glyphicon glyphicon-map-marker"></span> Himalayas, India</p>
+                <p><?php
+
+$fh = fopen('contact.txt','r');
+while ($line = fgets($fh)) {
+  // <... Do your work with the line ...>
+   echo($line);
+}
+fclose($fh);
+?><p>
+                        <!--<p><span class="glyphicon glyphicon-map-marker"></span> Himalayas, India</p>
                         <p><span class="glyphicon glyphicon-phone"></span> +43897492347</p>
-                        <p><span class="glyphicon glyphicon-envelope"></span> myemail@himalayas.com</p>
+                        <p><span class="glyphicon glyphicon-envelope"></span> myemail@himalayas.com</p>-->
             </div>
             <div class="col-sm-7 slideanim">
                 <div class="row">
